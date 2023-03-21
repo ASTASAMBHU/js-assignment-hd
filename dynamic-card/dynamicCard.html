@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Task 3</title>
+    <style>
+        body{
+            font-family: 'Poppins';
+        }
+        .wrapper{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .card{
+            border: 1px solid gray;
+            border-radius: 10px;
+            padding: 15px;
+            min-width: 250px;
+            max-width: 250px;
+            margin: 10px;
+            text-align: center;
+        }
+        .profile-img{
+            width: 60px;
+            border-radius: 50%;
+        }
+        .name,.designation,.department,.location{
+            font-size: 16px;
+            font-weight: 400;
+            text-align: left;
+            margin: 15px 0 0 0;
+        }
+        #table{
+            padding: 10px;
+        }
+        .custom-table{
+            width: 100%;
+            border: 1px solid gray;
+            border-collapse: collapse;
+        }
+        .custom-table th{
+            font-size: 20px;
+            border: 1px solid gray;
+            text-align: center;
+            vertical-align: middle;
+            padding: 20px 10px;
+        }
+        .custom-table td{
+            border: 1px solid gray;
+            text-align: center;
+            vertical-align: middle;
+            padding: 5px 5px;
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    
+    <div class="wrapper" id="wrapper">
+        
+    </div>
+
+    <div id="table">
+        
+    </div>
+    
+    <script>
+
+        let wrapper = document.getElementById('wrapper');
+        let data = [
+            {name:'Hariomm',designation:'Developer',department:'Dev',image:'https://static.vecteezy.com/system/resources/thumbnails/002/002/403/small/man-with-beard-avatar-character-isolated-icon-free-vector.jpg'},
+            {name:'Astasambhu',designation:'Designer',department:'Degn',location:'DEL',image:'https://pickaface.net/gallery/avatar/20120409_230759_3646_Fake.png'},
+            {name:'Suraj',designation:'Tester',department:'Test',location:'BBI',image:'https://static.vecteezy.com/system/resources/thumbnails/002/002/403/small/man-with-beard-avatar-character-isolated-icon-free-vector.jpg'},
+            {name:'Kailash',designation:'Administrator',department:'Admin',image:'https://pickaface.net/gallery/avatar/20120409_230759_3646_Fake.png'}
+        ]
+
+        data.map(employee =>{
+            let content  = `
+                <div class='card'>
+                    <img src="${employee.image}" class='profile-img'>
+                    <h1 class='name'><b>Name :</b> ${employee.name}</h1>
+                    <h2 class='designation'><b>Designation :</b> ${employee.designation}</h2>
+                    <h3 class='department'> <b>Department :</b> ${employee.department} </h3>
+                    <h3 class='location'> <b>Location :</b> ${(employee.location==undefined?'Note available':employee.location)} </h3> 
+                </div>
+            `
+
+            wrapper.innerHTML +=content;
+        })
+
+
+        // Table Format 
+        let headers = ['Name','Designation','Department','Location','Images'];
+
+        let myTable = document.getElementById('table');
+        
+        let table = document.createElement('table');
+        let tableheader = document.createElement('thead');
+        
+        table.classList='custom-table';
+
+
+
+        let headerRow = document.createElement('tr');
+
+        headers.map(headerText => {
+            let header = document.createElement('th');
+            let textNode = document.createTextNode(headerText);
+            header.appendChild(textNode);
+            headerRow.appendChild(header);
+        })
+        tableheader.appendChild(headerRow);
+        table.appendChild(tableheader);
+
+
+        let tbody = document.createElement('tbody');
+        data.map(emp=>{
+            let row = document.createElement('tr');
+            
+            
+            let cell1 = document.createElement('td');
+            let cell2 = document.createElement('td');
+            let cell3 = document.createElement('td');
+            let cell4 = document.createElement('td');
+            let cell5 = document.createElement('td');
+            let img = document.createElement('img');
+            img.classList.add('profile-img');
+            img.setAttribute('src',emp.image);
+            
+            cell1.innerText = emp.name;
+            cell2.innerText = emp.designation;
+            cell3.innerText = emp.department;
+            cell4.innerText = emp.location == undefined ? 'Not available': emp.location;
+            // cell5.innerText = emp.image;
+
+            
+
+
+            // let textNode5 = document.createTextNode(img.setAttribute('src',emp.image));
+            
+            // img.appendChild(textNode5);
+            // cell1.appendChild(textNode1);
+            // cell2.appendChild(textNode2);
+            // cell3.appendChild(textNode3);
+            // cell4.appendChild(textNode4);
+            cell5.appendChild(img);
+            
+            row.appendChild(cell1);
+            row.appendChild(cell2);
+            row.appendChild(cell3);
+            row.appendChild(cell4);
+            row.appendChild(cell5);
+            
+            tbody.appendChild(row);
+        })
+
+        table.append(tbody);
+        myTable.appendChild(table);
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,1148 @@
+[
+  {
+    "id": 1,
+    "title": "ICICI Bank - CIB",
+    "tagline": "Reshaping the banking experience",
+    "imageUrl": "images/porfolio/thumbs/icici.jpg",
+    "externalLink": "icici.html",
+    "techStacks": [
+      "Adobe Xd",
+      "Photoshop",
+      "illustrator",
+      "Android",
+      "iOS",
+      "Finance"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Plexigo",
+    "tagline": "Discover the Newest Movies and TV Shows",
+    "imageUrl": "images/porfolio/thumbs/Plexigo.jpg",
+    "externalLink": "plexigo.html",
+    "techStacks": [
+      "Adobe Xd",
+      "Photoshop",
+      "Android",
+      "iOS",
+      "TV",
+      "Mobile",
+      "App",
+      "Movies",
+      "Entertainment",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Axis Bank",
+    "tagline": "Building convenience on a digital banking platform",
+    "imageUrl": "images/porfolio/thumbs/AxisDashboards.png",
+    "externalLink": "axis-bank.html",
+    "techStacks": [
+      "Desktop",
+      "Banking",
+      "Finance",
+      "Web",
+      "Typography",
+      "Photoshop",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "MMRCL",
+    "tagline": "A facelift that increased the traffic",
+    "imageUrl": "images/porfolio/thumbs/mmrcl.jpg",
+    "externalLink": "mmrcl.html",
+    "techStacks": [
+      "Desktop",
+      "Web",
+      "Dashboard",
+      "Typography",
+      "Photoshop",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Phoenix",
+    "tagline": "Crafting a luxurious, life-like digital experience",
+    "imageUrl": "images/porfolio/thumbs/Phoenix.jpg",
+    "externalLink": "phoenix.html",
+    "techStacks": [
+      "Desktop",
+      "Web",
+      "Photoshop",
+      "Adobe Xd",
+      "E-commerce",
+      "Mobile",
+      "Research",
+      "HTML5",
+      "CSS3",
+      "Frontend Development",
+      "Entertainment",
+      "Shopping",
+      "Fashion"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "MPCB",
+    "tagline": "A stimulating, user-centric, transparent e Governing interface",
+    "imageUrl": "images/porfolio/thumbs/MPCB.jpg",
+    "externalLink": "mpcb.html",
+    "techStacks": [
+      "Dashboard",
+      "Web",
+      "Photoshop",
+      "Adobe Xd",
+      "Government",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+
+  {
+    "id": 7,
+    "title": "One Off Nature",
+    "tagline": "A guiding companion to Shop smart",
+    "imageUrl": "images/porfolio/thumbs/ONEOFFNATURE-thumbnail.png",
+    "videoUrl": "videos/one-off-nature.mp4",
+    "externalLink": "one-off-nature.html"
+  },
+  {
+    "id": 8,
+    "title": "Dr Job",
+    "tagline": "Interface that integrates necessity with seamless functionality",
+    "imageUrl": "images/porfolio/thumbs/Dr-Jobs.jpg",
+    "videoUrl": "videos/dr-Jobs.mp4",
+    "externalLink": "dr-job.html",
+    "techStacks": [
+      "Dashboard",
+      "Web",
+      "Photoshop",
+      "illustrator",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development",
+      "Placement"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Dewin Grains",
+    "tagline": "Insightful and easy-to-navigate grain trading portal",
+    "imageUrl": "images/porfolio/thumbs/DewinGrains.jpg",
+    "videoUrl": "videos/dewing-grain.mp4",
+    "externalLink": "dewing-grain.html",
+    "techStacks": ["Typography","Research","Mobile","Photoshop","Adobe Xd","Food","Agriculture","Trading","iOS","Android"]
+  },
+  {
+    "id": 10,
+    "title": "EY",
+    "tagline": "Seamless dashboard for a powerful assets management",
+    "imageUrl": "images/porfolio/thumbs/EY.jpg",
+    "videoUrl": "videos/ey.mp4",
+    "externalLink": "ey.html",
+    "techStacks": [
+      "Dashboard",
+      "Research",
+      "Web",
+      "Photoshop",
+      "illustrator",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development",
+      "Service"
+    ]
+  },
+
+  {
+    "id": 11,
+    "title": "Gems Education",
+    "tagline": "Crafting the experience of e-learning service",
+    "imageUrl": "images/porfolio/thumbs/GEMS.jpg",
+    "videoUrl": "videos/gems.mp4",
+    "externalLink": "gems.html",
+    "techStacks": [
+      "E-learning",
+      "Mobile App",
+      "illustrator",
+      "Adobe Xd",
+      "Education",
+      "Typography",
+      "iOS",
+      "Android"
+    ]
+  },
+
+  {
+    "id": 12,
+    "title": "Up Agriculture",
+    "tagline": "A simple, strategic dashboard for UP Govt agricultural system",
+    "imageUrl": "images/porfolio/thumbs/UPAgriculture.jpg",
+    "videoUrl": "videos/up.mp4",
+    "externalLink": "up.html",
+    "techStacks": [
+      "Agriculture",
+      "Government",
+      "Web",
+      "Dashboard",
+      "Photoshop",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+
+  {
+    "id": 13,
+    "title": "Asuaire",
+    "tagline": "Crafting the intuitive digital experience for a travel company",
+    "imageUrl": "images/porfolio/thumbs/asuaire-thumbnail.jpg",
+    "videoUrl": "videos/asuaire.mp4",
+    "externalLink": "asuaire.html"
+  },
+
+  {
+    "id": 14,
+    "title": "Noir",
+    "tagline": "An high-end and elegant ecommerce experience",
+    "imageUrl": "images/porfolio/thumbs/Noir.jpg",
+    "videoUrl": "videos/noir.mp4",
+    "externalLink": "noir.html",
+    "techStacks": [
+      "Marketplace",
+      "Wireframes",
+      "E-commerce",
+      "Shopping",
+      "Web",
+      "Photoshop",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+
+  {
+    "id": 15,
+    "title": "Guroo",
+    "tagline": "Faster and easier way of Recharge",
+    "imageUrl": "images/porfolio/thumbs/guroo.jpg",
+    "videoUrl": "videos/guroo.mp4",
+    "externalLink": "guroo.html",
+    "techStacks": [
+      "Photoshop",
+      "Adobe Xd",
+      "illustrator",
+      "Mobile App",
+      "Finance"
+    ]
+  },
+
+  {
+    "id": 16,
+    "title": "Smart Event",
+    "tagline": "Whole new world of stunning events",
+    "imageUrl": "images/porfolio/thumbs/SmartEvent.jpg",
+    "videoUrl": "videos/sem.mp4",
+    "externalLink": "sem.html",
+    "techStacks": [
+      "Dashboard",
+      "Desktop",
+      "Management tool",
+      "Web",
+      "Wireframes",
+      "Photoshop",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+
+  {
+    "id": 17,
+    "title": "RelWood",
+    "tagline": "An artfully crafted e-retail experience",
+    "imageUrl": "images/porfolio/thumbs/RelWoodThumbnail.jpg",
+    "videoUrl": "videos/relwood.mp4",
+    "externalLink": "relwood.html",
+    "techStacks": [
+      "Desktop",
+      "Web",
+      "Photoshop",
+      "Adobe Xd",
+      "E-commerce",
+      "Mobile",
+      "Furniture",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Kukka",
+    "tagline": "Heart of perfect delivery",
+    "imageUrl": "images/porfolio/thumbs/Kuuka.jpg",
+    "videoUrl": "videos/kukka.mp4",
+    "externalLink": "kukka.html",
+    "techStacks": [
+      "Desktop",
+      "Transport",
+      "Web",
+      "Mobile App",
+      "Typography",
+      "Photoshop",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+
+  {
+    "id": 19,
+    "title": "AwareBox",
+    "tagline": "Delivering an unmatched online social shopping experience",
+    "imageUrl": "images/porfolio/thumbs/AwareBox.jpg",
+    "videoUrl": "videos/awarebox.mp4",
+    "externalLink": "awarebox.html",
+    "techStacks": [
+      "E-commerce",
+      "Mobile App",
+      "illustrator",
+      "Adobe Xd",
+      "Typography",
+      "Wireframes",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Kayana",
+    "tagline": "Where managing a unified social presence experience is spectacular",
+    "imageUrl": "images/porfolio/thumbs/Kayana.jpg",
+    "videoUrl": "videos/kayana.mp4",
+    "externalLink": "kayana.html",
+    "techStacks": [
+      "iOS",
+      "Android",
+      "Mobile App",
+      "Photoshop",
+      "Adobe Xd",
+      "Wireframes",
+      "Research",
+      "Mobile",
+      "E-commerce",
+      "Food"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Cinko",
+    "tagline": "The unconventional hotel booking experience",
+    "imageUrl": "images/porfolio/thumbs/Cinko.png",
+    "videoUrl": "videos/cinko.mp4",
+    "externalLink": "cinko.html",
+    "techStacks": [
+      "Desktop",
+      "Web",
+      "Dashboard",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "RelWood",
+    "tagline": "An artfully crafted e-retail experience",
+    "imageUrl": "images/porfolio/thumbs/RelWoodThumbnail.jpg",
+    "videoUrl": "videos/relwood.mp4",
+    "externalLink": "relwood.html",
+    "techStacks": [
+      "Desktop",
+      "Web",
+      "Photoshop",
+      "Adobe Xd",
+      "E-commerce",
+      "Mobile",
+      "Furniture",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Tuva",
+    "tagline": "A marketplace for car riders and drivers",
+    "imageUrl": "images/porfolio/thumbs/tuvo.png",
+    "videoUrl": "videos/tuvo.mp4",
+    "externalLink": "tuvo.html",
+    "techStacks": [
+      "Desktop",
+      "Transport",
+      "Web",
+      "Mobile App",
+      "Typography",
+      "Photoshop",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Tarifa Just",
+    "tagline": "A marketplace for car riders and drivers",
+    "imageUrl": "images/porfolio/thumbs/tarifa-just.png",
+    "videoUrl": "videos/tarifajust.mp4",
+    "externalLink": "tarifajust.html",
+    "techStacks": [
+      "Desktop",
+      "Marketplace",
+      "Web",
+      "Mobile App",
+      "Typography",
+      "Photoshop",
+      "Adobe Xd"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Smact App",
+    "tagline": "A distinguished approach to make video-making interesting",
+    "imageUrl": "images/porfolio/thumbs/smact.png",
+    "videoUrl": "videos/smactapp.mp4",
+    "externalLink": "smactapp.html",
+    "techStacks": [
+      "Desktop",
+      "Web",
+      "Mobile App",
+      "Typography",
+      "E-commerce",
+      "Photoshop",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+
+  {
+    "id": 26,
+    "title": "Recharger Prepaid Meters",
+    "tagline": "Making access to Prepaid meter on your fingertips",
+    "imageUrl": "images/porfolio/thumbs/recharger.jpg",
+    "videoUrl": "videos/recharger-prepaid-meters.mp4",
+    "externalLink": "recharger-prepaid-meters.html",
+    "techStacks": [
+      "Desktop",
+      "Web",
+      "Mobile App",
+      "Typography",
+      "Photoshop",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+
+  {
+    "id": 27,
+    "title": "Auronova",
+    "tagline": "Where 'Risk Control Self-Assessment' is made easy",
+    "imageUrl": "images/porfolio/thumbs/rcsa.png",
+    "videoUrl": "videos/auronova.mp4",
+    "externalLink": "auronova.html",
+    "techStacks": [
+      "Desktop",
+      "Web",
+      "Dashboard",
+      "Typography",
+      "Photoshop",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+
+  {
+    "id": 28,
+    "title": "Infosys Conference 2020",
+    "tagline": "An immersive VR Experience",
+    "imageUrl": "images/porfolio/thumbs/Infosys.jpg",
+    "videoUrl": "videos/infosys.mp4",
+    "externalLink": "infosys.html",
+    "techStacks": [
+      "Desktop",
+      "Web",
+      "Dashboard",
+      "Typography",
+      "Photoshop",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+
+  {
+    "id": 29,
+    "title": "Impact",
+    "tagline": "Integrated Platform for seamless communication",
+    "imageUrl": "images/porfolio/thumbs/impact.jpg",
+    "videoUrl": "videos/impact.mp4",
+    "externalLink": "impact.html",
+    "techStacks": [
+      "Desktop",
+      "Web",
+      "Dashboard",
+      "Typography",
+      "Photoshop",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+
+  {
+    "id": 30,
+    "title": "Concept",
+    "tagline": "Connecting the like-minded to build communities",
+    "imageUrl": "images/porfolio/thumbs/Concept.jpg",
+    "videoUrl": "videos/conceptApp.mp4",
+    "externalLink": "conceptApp.html",
+    "techStacks": [
+      "Mobile",
+      "Typography",
+      "Photoshop",
+      "Adobe Xd"
+    ]
+  },
+
+  {
+    "id": 31,
+    "title": "Electronic Bazar",
+    "tagline": "Accelerating sales with an impeccable user-journey",
+    "imageUrl": "images/porfolio/thumbs/eb.jpg",
+    "videoUrl": "videos/electronic-bazar.mp4",
+    "externalLink": "electronic-bazar.html",
+    "techStacks": [
+      "Web",
+      "eCommerce",
+      "Typography",
+      "Photoshop",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+
+  {
+    "id": 32,
+    "title": "Fitbit",
+    "tagline": "A flawless interface that measures the users' fitness levels",
+    "imageUrl": "images/porfolio/thumbs/fitbit.jpg",
+    "videoUrl": "videos/fitbit.mp4",
+    "externalLink": "fitbit.html",
+    "techStacks": [
+      "Web",
+      "eCommerce",
+      "Typography",
+      "Photoshop",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+
+  {
+    "id": 33,
+    "title": "Find Mate for Free",
+    "tagline": "Fostering real-time and natural connections with geolocation feature",
+    "imageUrl": "images/porfolio/thumbs/FMFF.jpg",
+    "videoUrl": "videos/fmf.mp4",
+    "externalLink": "fmf.html",
+    "techStacks": [
+      "Mobile",
+      "Typography",
+      "Photoshop",
+      "Adobe Xd"
+    ]
+  },
+
+  {
+    "id": 34,
+    "title": "Gameday-Trading Card Maker",
+    "tagline": "Digitizing the joy of Card Playing",
+    "imageUrl": "images/porfolio/thumbs/gameday.jpg",
+    "videoUrl": "videos/gameday.mp4",
+    "externalLink": "gameday.html",
+    "techStacks": [
+      "Mobile",
+      "Typography",
+      "Photoshop",
+      "Adobe Xd"
+    ]
+  },
+
+  {
+    "id": 35,
+    "title": "Immunity Heath",
+    "tagline": "Driving immunity building goals for the health-conscious users",
+    "imageUrl": "images/porfolio/thumbs/immunity.png",
+    "videoUrl": "videos/immunity.mp4",
+    "externalLink": "immunity.html",
+    "techStacks": [
+      "Mobile",
+      "Typography",
+      "Photoshop",
+      "Adobe Xd"
+    ]
+  },
+
+  {
+    "id": 36,
+    "title": "1 Pay",
+    "tagline": "Reshaping the perception of the payments for logistics",
+    "imageUrl": "images/porfolio/thumbs/1Pay-thumbnail.jpg",
+    "videoUrl": "videos/1-pay.mp4",
+    "externalLink": "1-pay.html"
+  },
+
+  {
+    "id": 37,
+    "title": "Aspire",
+    "tagline": "In pursuit of the next level of excellence",
+    "imageUrl": "images/porfolio/thumbs/aspire-thumbnail.png",
+    "videoUrl": "videos/aspire.mp4",
+    "externalLink": "aspire.html"
+  },
+
+  {
+    "id": 38,
+    "title": "Digital Swiss Gold",
+    "tagline": "A smart and secure gold ecommerce experience",
+    "imageUrl": "images/porfolio/thumbs/DigitalSwissGold.jpg",
+    "videoUrl": "videos/digital-swiss-gold.mp4",
+    "externalLink": "digital-swiss-gold.html",
+    "techStacks": [
+      "Trading",
+      "Mobile App",
+      "illustrator",
+      "Adobe Xd",
+      "iOS",
+      "Android"
+    ]
+  },
+
+  {
+    "id": 39,
+    "title": "Dipulse",
+    "tagline": "Engaging people in pleasant experiences to create a healthy body and mind",
+    "imageUrl": "images/porfolio/thumbs/dipulse-thumbnail.jpg",
+    "videoUrl": "videos/dipulse.mp4",
+    "externalLink": "dipulse.html"
+  },
+
+  {
+    "id": 40,
+    "title": "General Global Health",
+    "tagline": "Putting together a design system in tune with cultural insights",
+    "imageUrl": "images/porfolio/thumbs/general-global-health-thumbnail.png",
+    "videoUrl": "videos/general-global-health.mp4",
+    "externalLink": "general-global-health.html"
+  },
+
+  {
+    "id": 41,
+    "title": "JSW",
+    "tagline": "All in one industrial management mobile app",
+    "imageUrl": "images/porfolio/thumbs/jsw-thumbnail.jpg",
+    "videoUrl": "videos/jsw.mp4",
+    "externalLink": "jsw.html"
+  },
+
+  {
+    "id": 42,
+    "title": "MED Penny App",
+    "tagline": "A simple, strategic , secure and seamless portal for a powerful management",
+    "imageUrl": "images/porfolio/thumbs/MedPenny-thumbnail.jpg",
+    "videoUrl": "videos/med-penny-app.mp4",
+    "externalLink": "med-penny-app.html"
+  },
+
+  {
+    "id": 43,
+    "title": "MIDAD",
+    "tagline": "Building the experience for event booking system",
+    "imageUrl": "images/porfolio/thumbs/midad-thumbnail.png",
+    "videoUrl": "videos/midad.mp4",
+    "externalLink": "midad.html"
+  },
+
+  {
+    "id": 44,
+    "title": "Moola",
+    "tagline": "Digital banking service specifically created for students",
+    "imageUrl": "images/porfolio/thumbs/moola-thumbnail.jpg",
+    "videoUrl": "videos/moola.mp4",
+    "externalLink": "moola.html"
+  },
+
+  {
+    "id": 45,
+    "title": "Survselva Landtechnik",
+    "tagline": "Reshaping experience for the agriculture market",
+    "imageUrl": "images/porfolio/thumbs/Survselva-Landtechnik.jpg",
+    "videoUrl": "videos/surselva.mp4",
+    "externalLink": "surselva.html",
+    "techStacks": [
+      "Agriculture",
+      "E-commerce",
+      "Web",
+      "Photoshop",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+
+  {
+    "id": 46,
+    "title": "Travel Pakistan",
+    "tagline": "Digital Transformation for tourism and hospitality aggregation",
+    "imageUrl": "images/porfolio/thumbs/travelpakistan-thumbnail.png",
+    "videoUrl": "videos/travel-pakistan.mp4",
+    "externalLink": "travel-pakistan.html"
+  },
+
+  {
+    "id": 47,
+    "title": "VASPAY",
+    "tagline": "Marking a strong presence of payment method to Nigerian market audiences",
+    "imageUrl": "images/porfolio/thumbs/vaspay-app-thumbnail.jpg",
+    "videoUrl": "videos/vaspay.mp4",
+    "externalLink": "vaspay.html"
+  },
+
+  {
+    "id": 48,
+    "title": "VIALIS",
+    "tagline": "Reimagine the user experience of the set top box provider",
+    "imageUrl": "images/porfolio/thumbs/vialis-thumbnail.png",
+    "videoUrl": "videos/vialis.mp4",
+    "externalLink": "vialis.html"
+  },
+
+  {
+    "id": 49,
+    "title": "Ustawi",
+    "tagline": "Marking a strong presence of beauty products",
+    "imageUrl": "images/porfolio/thumbs/ustawi.jpg",
+    "videoUrl": "videos/ustawi.mp4",
+    "externalLink": "ustawi.html",
+    "techStacks": [
+      "Desktop",
+      "E-commerce",
+      "Web",
+      "Personal care",
+      "Photoshop",
+      "Adobe Xd",
+      "HTML5",
+      "CSS3",
+      "Frontend Development"
+    ]
+  },
+
+  {
+    "id": 50,
+    "title": "AISats",
+    "tagline": "Elevate the passenger experience through effective services",
+    "imageUrl": "images/porfolio/thumbs/AIsats.jpg",
+    "videoUrl": "videos/AIsats.mp4",
+    "externalLink": "AIsats.html",
+    "techStacks": [
+      "Desktop",
+      "XD",
+      "Photoshop",
+      "AI"
+    ]
+  },
+
+  {
+    "id": 51,
+    "title": "AIRPORT HK",
+    "tagline": "Marking a strong presence of beauty products",
+    "imageUrl": "images/porfolio/thumbs/airport-hk.jpg",
+    "videoUrl": "videos/airport-hk.mp4",
+    "externalLink": "airport-hk.html",
+    "techStacks": [
+      "Design",
+      "XD",
+      "Photoshop",
+      "AI",
+      "Heuristic Evaluation",
+      "User research"
+    ]
+  },
+
+  {
+    "id": 52,
+    "title": "Kando",
+    "tagline": "Training is training - we make it more engaging & interesting",
+    "imageUrl": "images/porfolio/thumbs/KanDo-thumb.png",
+    "videoUrl": "videos/kan-do.mp4",
+    "externalLink": "kan-do.html",
+    "techStacks": [
+      "iOS",
+      "Android",
+      "Mobile App",
+      "Photoshop",
+      "Adobe Xd",
+      "Wireframes",
+      "Research",
+      "Mobile",
+      "E-commerce",
+      "Food"
+    ]
+  },
+
+  {
+    "id": 53,
+    "title": "ONGC",
+    "tagline": "Management system designed to suit the best user needs.",
+    "imageUrl": "images/porfolio/thumbs/ongc-rhumb.png",
+    "videoUrl": "videos/ongc.mp4",
+    "techStacks": [
+        "iOS",
+        "Android",
+        "Mobile App",
+        "Photoshop",
+        "Adobe Xd",
+        "Wireframes",
+        "Research",
+        "Mobile",
+        "E-commerce",
+        "Food"
+    ]
+  },
+
+  {
+    "id": 54,
+    "title": "Moitele",
+    "tagline": "One of the best VoIP in the industry.",
+    "imageUrl": "images/porfolio/thumbs/Moitele-thumb.png",
+    "videoUrl": "videos/moitele.mp4",
+    "externalLink": "moitele.html",
+    "techStacks": [
+        "iOS",
+        "Android",
+        "Mobile App",
+        "Photoshop",
+        "Adobe Xd",
+        "Wireframes",
+        "Research",
+        "Mobile",
+        "E-commerce",
+        "Food"
+    ]
+  },
+
+  {
+    "id": 55,
+    "title": "Produgie",
+    "tagline": "One stop employee growth solutions",
+    "imageUrl": "images/porfolio/thumbs/Produgie-Thumbnail.png",
+    "videoUrl": "videos/produgie.mp4",
+    "externalLink": "produgie.html",
+    "techStacks": [
+        "iOS",
+        "Android",
+        "Mobile App",
+        "Photoshop",
+        "Adobe Xd",
+        "Wireframes",
+        "Research",
+        "Mobile",
+        "E-commerce",
+        "Food"
+    ]
+  },
+
+  {
+    "id": 56,
+    "title": "BHIM",
+    "tagline": "Making India cashless",
+    "imageUrl": "images/porfolio/thumbs/bhim-thumb.png",
+    "videoUrl": "videos/bhim.mp4",
+    "externalLink": "bhim.html",
+    "techStacks": [
+        "iOS",
+        "Android",
+        "Mobile App",
+        "Photoshop",
+        "Adobe Xd",
+        "Wireframes",
+        "Research",
+        "Mobile",
+        "E-commerce",
+        "Food"
+    ]
+  },
+
+  {
+    "id": 57,
+    "title": "HDFC loan",
+    "tagline": "Driving solution from software to web-app",
+    "imageUrl": "images/porfolio/thumbs/hdfc-thumb.png",
+    "videoUrl": "videos/hdfc-loan.mp4",
+    "externalLink": "hdfc-loan.html",
+    "techStacks": [
+        "iOS",
+        "Android",
+        "Mobile App",
+        "Photoshop",
+        "Adobe Xd",
+        "Wireframes",
+        "Research",
+        "Mobile",
+        "E-commerce",
+        "Food"
+    ]
+  },
+
+  {
+    "id": 58,
+    "title": "KobonIq",
+    "tagline": "Iraq's leading coupons & deals marketplace",
+    "imageUrl": "images/porfolio/thumbs/KobonIQ-thumb.png",
+    "videoUrl": "videos/kobonlq.mp4",
+    "externalLink": "kobonlq.html",
+    "techStacks": [
+        "iOS",
+        "Android",
+        "Mobile App",
+        "Photoshop",
+        "Adobe Xd",
+        "Wireframes",
+        "Research",
+        "Mobile",
+        "E-commerce",
+        "Food"
+    ]
+  },
+
+  {
+    "id": 58,
+    "title": "Presented By",
+    "tagline": "A modern consignment store that represents refined sneakers",
+    "imageUrl": "images/porfolio/thumbs/presented-by-thumb.jpg",
+    "videoUrl": "videos/presented-by.mp4",
+    "externalLink": "presented-by.html",
+    "techStacks": [
+        "iOS",
+        "Android",
+        "Mobile App",
+        "Photoshop",
+        "Adobe Xd",
+        "Wireframes",
+        "Research",
+        "Mobile",
+        "E-commerce",
+        "Food"
+    ]
+  },
+
+  {
+    "id": 59,
+    "title": "SBI CAP Securities",
+    "tagline": "Secure trading guaranteed",
+    "imageUrl": "images/porfolio/thumbs/sbi-cap-thumb.png",
+    "videoUrl": "videos/sbicap-security.mp4",
+    "externalLink": "sbicap-security.html",
+    "techStacks": [
+        "iOS",
+        "Android",
+        "Mobile App",
+        "Photoshop",
+        "Adobe Xd",
+        "Wireframes",
+        "Research",
+        "Mobile",
+        "E-commerce",
+        "Food"
+    ]
+  },
+
+  {
+    "id": 60,
+    "title": "The Signature",
+    "tagline": "Designed just the way you'd want it",
+    "imageUrl": "images/porfolio/thumbs/the-signature-thumb.jpg",
+    "videoUrl": "videos/the-signature.mp4",
+    "externalLink": "the-signature.html",
+    "techStacks": [
+        "iOS",
+        "Android",
+        "Mobile App",
+        "Photoshop",
+        "Adobe Xd",
+        "Wireframes",
+        "Research",
+        "Mobile",
+        "E-commerce",
+        "Food"
+    ]
+  },
+
+  {
+    "id": 61,
+    "title": "Dabadu",
+    "tagline": "Your business process re-invented",
+    "imageUrl": "images/porfolio/thumbs/dabadu.jpg",
+    "videoUrl": "videos/dabadu.mp4",
+    "externalLink": "dabadu.html",
+    "techStacks": [
+      "XD",
+      "Dashboard",
+      "Business",
+      "Reports",
+      "Admin",
+      "Animations"
+    ]
+  },
+
+  {
+    "id": 62,
+    "title": "Fullertone",
+    "tagline": "Rishta Samman Ka",
+    "imageUrl": "images/porfolio/thumbs/Fullerton.jpg",
+    "videoUrl": "videos/fullertone.mp4",
+    "externalLink": "fullertone.html",
+    "techStacks": [
+      "HTML",
+      "Loans",
+      "CSS3",
+      "JavaScript",
+      "Website",
+      "Mobile Responsive"
+    ]
+  },
+
+  {
+    "id": 63,
+    "title": "Infosys Equinox",
+    "tagline": "Human-centric commerce and marketing platform",
+    "imageUrl": "images/porfolio/thumbs/Infosys_1.png",
+    "videoUrl": "videos/infosys_1.mp4",
+    "techStacks": [
+        "HTML",
+        "Informative",
+        "CSS3",
+        "JavaScript",
+        "Website",
+        "Mobile Responsive"
+    ]
+  },
+
+  {
+    "id": 64,
+    "title": "K Raheja",
+    "tagline": "Fueling growth, Powering economics",
+    "imageUrl": "images/porfolio/thumbs/KRaheja-1.png",
+    "videoUrl": "videos/kraheja.mp4",
+    "externalLink": "kraheja.html",
+    "techStacks": [
+      "Mobile App",
+      "XD",
+      "UI/UX",
+      "Dashboard",
+      "IPO",
+      "Finance",
+      "Shareholdings"
+    ]
+  },
+
+  {
+    "id": 65,
+    "title": "OTT Play",
+    "tagline": "Smart recommendation entertainment platform",
+    "imageUrl": "images/porfolio/thumbs/OTT.jpg",
+    "videoUrl": "videos/ott.mp4",
+    "externalLink": "ott.html",
+    "techStacks": [
+      "HTML",
+      "Entertainment",
+      "CSS3",
+      "Mobile Responsive",
+      "JavaScript",
+      "Website"
+    ]
+  },
+
+  {
+    "id": 66,
+    "title": "Ticker",
+    "tagline": "We take your market matters seriously",
+    "imageUrl": "images/porfolio/thumbs/Ticker.jpg",
+    "videoUrl": "videos/ticker.mp4",
+    "externalLink": "ticker.html",
+    "techStacks": [
+      "XD",
+      "Website",
+      "Finance",
+      "Animation",
+      "Market",
+      "Crypto",
+      "Stocks",
+      "Mobile Responsive"
+    ]
+  },
+
+  {
+    "id": 67,
+    "title": "Ubinet",
+    "tagline": "Banking Norms Redefined",
+    "imageUrl": "images/porfolio/thumbs/Ubinet.png",
+    "videoUrl": "videos/ubinet.mp4",
+    "externalLink": "ubinet.html",
+    "techStacks": [
+      "User Research",
+      "Wireframing",
+      "XD",
+      "Dashboard",
+      "Employee Portal",
+      "Task Management ",
+      "Company Info",
+      "Responsive Design"
+    ]
+  }
+]

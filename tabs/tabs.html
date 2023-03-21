@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Tabs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .heading {
+            margin-top: 10px;
+            font-size: 32px;
+            font-weight: 500;
+            color: darkcyan;
+            text-align: center;
+        }
+        .tab-wrapper{
+            padding: 10px;
+            width: 95%;
+            margin: 30px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 2px 1px 5px #ddd;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+        }
+        .nav-tabs{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .nav-tabs li{
+            border: 1px solid darkcyan;
+            color: darkcyan;
+            padding: 10px 10px;
+            font-size: 19px;
+            font-weight: 500;
+            cursor: pointer;
+            width: 30%;
+            border-radius: 5px;
+            text-align: center;
+
+        }
+        .nav-tabs li.tab{
+            transition: all .3s ease 0s;
+        }
+        .nav-tabs .tab.is-active{
+            background-color: darkcyan;
+            color: white;
+        }
+        .tab-panel{
+            display: none;
+        }
+        .tab-panel.is-active{
+            display: block;
+        }
+        .tab-panel p{
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 25px;
+        }
+        .tab-panel h3{
+            font-size: 25px;
+            color: darkcyan;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="heading">Javascript Tabs Structure</h1>
+    <div class="tab-wrapper">
+        <ul class="nav-tabs">
+            <li class="tab is-active" data-target="#tab-home">Home</li>
+            <li class="tab" data-target="#tab-about">About</li>
+            <li class="tab" data-target="#tab-profile">Profile</li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-panel is-active" id="tab-home">
+                <h3>Home</h3>
+                <p>
+                    You can click on the ‘item to generate’ column and select the format you want content in.
+
+                    Below that, you can select if you want an HTML tag in your content or not
+
+                    After that, you can choose how many paragraphs you want in the ‘how many items to generate’ column.
+
+                    Then, you can choose the minimum and maximum words you want per sentence.
+
+                    Later, you can select the minimum and maximum sentences you want per paragraph.
+
+                    Finally, click on the button ‘generate’
+                </p>
+            </div>
+            <div class="tab-panel" id="tab-about">
+                <h3>About</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ornare tempus
+                    aliquet. Pellentesque finibus, est et iaculis suscipit, dolor nulla commodo
+                    dui, nec ultricies arcu nisl tristique eros. Morbi eros est, pulvinar eget
+                    ornare ac, ultrices eget risus. Ut lobortis pellentesque pretium. Praesent 
+                    sollicitudin vestibulum iaculis. Mauris a finibus orci. Quisque ipsum nunc, 
+                    efficitur sit amet blandit ut, aliquam quis dui. Phasellus interdum leo eu ipsum 
+                    malesuada, et interdum diam egestas. Maecenas pretium fermentum tortor ac tincidunt. 
+                    Curabitur consectetur dolor libero, at aliquam est ornare eleifend. Aliquam at finibus 
+                    dolor.”
+                </p>
+            </div>
+            <div class="tab-panel" id="tab-profile">
+                <h3>Profile</h3>
+                <p>
+                    You can click on the ‘item to generate’ column and select the format you want content in.
+
+                    Below that, you can select if you want an HTML tag in your content or not
+
+                    After that, you can choose how many paragraphs you want in the ‘how many items to generate’ column.
+
+                    Then, you can choose the minimum and maximum words you want per sentence.
+
+                    Later, you can select the minimum and maximum sentences you want per paragraph.
+
+                    Finally, click on the button ‘generate’
+                </p>
+            </div>
+        </div>
+    </div>
+    
+
+    <script>
+        const tabs = document.querySelectorAll('.tab');
+        const tabContent = document.querySelectorAll('.tab-panel');
+        tabs.forEach((tab)=>{
+            // console.log(tab);
+            tab.addEventListener('click',()=>{
+                const listTarget = document.querySelector(tab.dataset.target);
+                // console.log(listTarget);
+                tabContent.forEach((tabcontent)=>{
+                    // console.log(tc);
+                    tabcontent.classList.remove('is-active');
+                });
+                listTarget.classList.add('is-active');
+                tabs.forEach((tabList)=>{
+                    // console.log(tabList);
+                    tabList.classList.remove('is-active');
+                });
+                tab.classList.add('is-active');
+            })
+        })
+    </script>
+</body>
+
+</html>

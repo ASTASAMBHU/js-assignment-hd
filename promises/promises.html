@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promises Example</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 class="h1">Promises</h1>
+    <script>
+
+        // let promp = new Promise(function(resolve,reject){
+        //     let age1 = 30;
+        //     let age2 = 30;
+
+        //     if(age1 === age2){
+        //         resolve();
+        //     }else{
+        //         reject();
+        //     }
+        // });
+
+        // console.log(promp);
+
+        // promp.then(function(){
+        //     console.log('Successful Promise is Execute here')
+        // })
+        // .catch(function(){
+        //     console.log('Error execution here only ')
+        // })
+            
+
+
+        // let promise = new Promise(function(resolve,reject){
+        //     throw new Error('And error is occured');
+        // })
+        // promise.then(function(SuccessMessage){
+        //     console.log(SuccessMessage);
+        // })
+        // .catch(function(msg){
+        //     console.log(msg);
+        // })
+
+
+        const myPromise = new Promise(function(resolve,reject){
+            setTimeout(()=>{
+                resolve("After 2 sec msg will display");
+            },2000)
+        });
+        myPromise.then(function(m){
+            console.log(m);
+        })
+
+
+
+
+    </script>
+</body>
+</html>

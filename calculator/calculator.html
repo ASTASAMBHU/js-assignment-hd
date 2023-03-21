@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .calculator-container{
+            width: 250px;
+            max-width: 250px;
+            min-height: 300px;
+            margin: 20px auto 0 auto;
+            border: 3px solid gray;
+            border-radius: 6px;
+            padding: 15px 10px;
+        }
+        .display-result{
+            border: 2px solid gray;
+            min-height: 30px;
+            margin: 5px 0 20px 0;
+            padding: 2px 5px;
+            border-radius: 5px;
+            font-size: 20px;
+        }
+        .calculator-container .row{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .calculator-container .row button{
+            font-size: 15px;
+            font-weight: 600;
+            border: 1px solid gray;
+            padding: 10px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            background-color: gray;
+            color: #FFFFFF;
+
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;margin:20px 0;">Calculator</h2>
+    <div class="calculator-container">
+        <div class="display-result" id="display-result"></div>
+        <div class="row">
+            <button class="numbers">1</button>
+            <button class="numbers">2</button>
+            <button class="numbers">3</button>
+            <button class="numbers">+</button>
+        </div>
+        <div class="row">
+            <button class="numbers">4</button>
+            <button class="numbers">5</button>
+            <button class="numbers">6</button>
+            <button class="numbers">-</button>
+        </div>
+        <div class="row">
+            <button class="numbers">7</button>
+            <button class="numbers">8</button>
+            <button class="numbers">9</button>
+            <button class="numbers">*</button>
+        </div>
+        <div class="row">
+            <button class="numbers">0</button>
+            <button onclick="clearResult()">C</button>
+            <button class="numbers">=</button>
+            <button class="numbers">/</button>
+        </div>
+    </div>
+
+
+    <script>
+        let result = ''
+        let displayResult= document.getElementById('display-result');
+
+        let buttons = document.getElementsByClassName('numbers');
+        
+        
+
+
+        Array.from(buttons).forEach(function(button){
+            button.addEventListener('click',function(e){
+
+                if(e.target.innerHTML == "="){
+                    result = eval(result);
+                    displayResult.innerHTML = result;
+                }
+                else{
+                    result = result + e.target.innerHTML;
+                    displayResult.innerHTML = result;
+                }
+            })
+        })
+
+
+        function clearResult(){
+            displayResult.innerHTML='';
+            result ='';
+        }
+
+
+
+    </script>
+</body>
+</html>

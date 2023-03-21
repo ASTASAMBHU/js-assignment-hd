@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <style>
+        h1,h2,h3,h4,h5{
+            margin: 0;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        p{
+            margin-bottom: 10px;
+        }
+        #modal-btn{
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 2px;
+            border: 1px solid #003b64;
+            background-color: #003b64;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: .7s ease-in-out;
+            margin: 30px 40px;
+        }
+        #modal-btn:hover{
+            background-color: transparent;
+            color: #003b64;
+        }
+        .close-btn{
+            background-color: #003b64;
+            color: #FFFFFF;
+            border-radius: 4px;
+            padding: 8px 10px;
+            border: 0;
+            cursor: pointer;
+        }
+        .modal-container{
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            visibility: hidden;
+            transition: visibility .3s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+            
+        }
+        .show-modal {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+            transition: visibility .3s linear 0s, opacity 0.25s 0s, transform 0.25s;
+        }
+        .modal-container .modal-content{
+            transform: translate(-50%,-80%);
+            transition: visibility .3s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+        }
+        .modal-container.show-modal .modal-content{
+            transform: translate(-50%,-50%);
+            transition: visibility .3s linear 0s, opacity 0.25s 0s, transform 0.25s;
+        }
+
+        .modal-content{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #FFFFFF;
+            padding: 20px;
+            border-radius: 10px;
+            width: 500px;
+            max-width: 500px;
+            
+        }
+        .modal-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .modal-body{
+            padding: 10px 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button id="modal-btn" class="modal-btn">Show Modal</button>
+        <div class="modal-container">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Modal Header</h2>
+                    <div>
+                        <button class="close-btn">X</button>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <h3 style="margin-bottom: 10px;">Modal Content</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet aperiam earum quidem, maxime repudiandae vero.
+                    </p>
+
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, repellat iusto quod sed ex velit quis ratione nisi tenetur fuga assumenda beatae omnis, ducimus illo praesentium odio dolorum. Aperiam, quia.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+
+                    <p>
+                        Lorem ipsum dolor sit.Lorem ipsum dolor sit.
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const modal = document.querySelector('.modal-container');
+        const modal_content = document.querySelector('.modal-content');
+        const modal_btn = document.querySelector('.modal-btn');
+        const close_btn = document.querySelector('.close-btn');
+
+        function toggleModal() {
+            modal.classList.toggle("show-modal");
+            modal_content.toggle('show-modal');
+        }
+
+        function bodyOnClick(event) {
+            if (event.target === modal) {
+                toggleModal();
+            }
+        }
+
+        modal_btn.addEventListener('click',toggleModal);
+        close_btn.addEventListener('click',toggleModal);
+        window.addEventListener('click',bodyOnClick);
+
+
+    </script>
+</body>
+</html>

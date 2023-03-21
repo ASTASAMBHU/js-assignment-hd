@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        .counter-container{
+            width: fit-content;
+            margin: 40px auto
+        }
+        .counter-btn{
+            background-color: #28b487;
+            color: #FFFFFF;
+            border: 0;
+            font-size: 22px;
+            cursor: pointer;
+            padding: 5px 15px;
+        }
+        .counter-value{
+            font-size: 30px;
+            color: #28b487;
+            font-weight: 600;
+            margin: 0 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="counter-container">
+        <button class="counter-btn" id="count-dec" onclick="countMinus()">-</button>
+        <span class="counter-value" id="count-val">0</span>
+        <button class="counter-btn" id="count-inc" onclick="countPlus()">+</button>
+    </div>
+
+    <script>
+
+        let count = 0;
+        const countDisplay = document.getElementById('count-val');
+        
+        function countPlus(){
+            count++;
+            countDisplay.innerHTML= count;
+        }
+
+        function countMinus(){
+            count--;
+            if(count <= 0){
+                count=0;
+                countDisplay.innerHTML=0 ;
+
+            }
+            else{
+                countDisplay.innerHTML=count;
+            }
+        }
+
+    </script>
+</body>
+</html>
