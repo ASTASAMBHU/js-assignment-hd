@@ -23,8 +23,8 @@ body{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    width: 400px;
-    max-width: 400px;
+    width: 600px;
+    max-width: 600px;
 }
 .main-heading{
     font-size: 32px;
@@ -32,37 +32,55 @@ body{
     margin-bottom: 20px;
 }
 .upload-image-container{
-    width: 80%;
-    margin: 0 auto;
-    height: 200px;
-    border: 4px solid #EFEEF3;
-    border-radius: 10px;
     margin-bottom: 20px;
 }
 #img-preview{
-    display: none;
-    width: 100%;
-    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px 40px;
     padding: 5px;
 }
 #img-preview img{
     width: 100%;
     height: 100%;
+    border-radius: 50%;
 }
 .upload-file-btn{
+    display: none;
     font-size: 18px;
     font-weight: 600;
 }
-
-
-
-
-
-
-
-.test-file{
-    display: inline-block;
-    min-width: 300px;
-    font-size: 22px;
-    margin-top: 30px;
+.upload-file-btn-label{
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #676666;
+    color: #EFEEF3;
+    border: 1px solid #676666;
+    padding: 7px 18px;
+    transition: ease .4s;
 }
+.upload-file-btn-label:hover{
+    background-color: transparent;
+    border: 1px solid  #EFEEF3;
+}
+
+.deleteItem{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.deletImg{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #676666;
+    padding: 4px 8px;
+    font-size: 18px;
+    border-radius: 50%;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+

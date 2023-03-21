@@ -1,31 +1,19 @@
 const chooseFile = document.getElementById("choose-file");
-// console.log(chooseFile);
 
-const imgPreview = document.getElementById("img-preview"); 
-// console.log(imgPreview);
+const imgPreview = document.getElementById("img-preview");
 
-
-function getImgData() {
-  
-    const files = chooseFile.files[0];
-    // console.log(files);
-    // console.log(files.name);
-    if (files) {
+const getImgData = function getImgData(e) {
+  let inputFilesObj = e.target.files;
+  for (var i = 0; i < inputFilesObj.length; i++) {
+    let file = chooseFile.files[i];
+    if (file) {
       const fileReader = new FileReader();
-      fileReader.readAsDataURL(files);
-      console.log(fileReader);
-      
+      fileReader.readAsDataURL(file);
       fileReader.addEventListener("load", function () {
-        imgPreview.style.display = "block";
-        // console.log(this.result);
-        imgPreview.innerHTML = '<img src="' + this.result + '" />';
-      });    
+        imgPreview.innerHTML += '<div class="deleteItem"><img class="imgCls" src="' + this.result + '" /> <buton onclick="this.parentNode.parentNode.removeChild(this.parentNode);" class="deletImg">X</button></div>';
+      });
     }
-}
+  }
+};
 
-
-chooseFile.addEventListener("change",getImgData);
-
-
-
-
+chooseFile.addEventListener("change", getImgData);
